@@ -12,19 +12,19 @@
 if (!defined('DC_RC_PATH')) { return; }
 
 // Database driver (mysql, mysqli, pgsql, sqlite)
-define('DC_DBDRIVER', $_ENV['DC_DBDRIVER'];);
+define('DC_DBDRIVER', $_ENV['DC_DBDRIVER']);
 
 // Database hostname (usually "localhost")
-define('DC_DBHOST', $_ENV['DC_DBHOST'];);
+define('DC_DBHOST', $_ENV['DC_DBHOST']);
 
 // Database user
-define('DC_DBUSER', $_ENV['DC_DBUSER'];);
+define('DC_DBUSER', $_ENV['DC_DBUSER']);
 
 // Database password
-define('DC_DBPASSWORD', $_ENV['DC_DBPASSWORD'];);
+define('DC_DBPASSWORD', $_ENV['DC_DBPASSWORD']);
 
 // Database name
-define('DC_DBNAME', $_ENV['DC_DBNAME'];);
+define('DC_DBNAME', $_ENV['DC_DBNAME']);
 
 // Tables' prefix
 define('DC_DBPREFIX', isset($_ENV['DC_DBPREFIX']) ? $_ENV['DC_DBPREFIX'] : 'dc_');
@@ -33,14 +33,14 @@ define('DC_DBPREFIX', isset($_ENV['DC_DBPREFIX']) ? $_ENV['DC_DBPREFIX'] : 'dc_'
 define('DC_DBPERSIST', isset($_ENV['DC_DBPERSIST']) ? $_ENV['DC_DBPERSIST'] : false);
 
 // Crypt key (password storage)
-define('DC_MASTER_KEY', $_ENV['DC_MASTER_KEY'];);
+define('DC_MASTER_KEY', $_ENV['DC_MASTER_KEY']);
 
 
 // Admin URL. You need to set it for some features.
-define('DC_ADMIN_URL', $_ENV['DC_ADMIN_URL'];);
+define('DC_ADMIN_URL', $_ENV['DC_ADMIN_URL']);
 
 // Admin mail from address. For password recovery and such.
-define('DC_ADMIN_MAILFROM', $_ENV['DC_ADMIN_MAILFROM'];);
+define('DC_ADMIN_MAILFROM', $_ENV['DC_ADMIN_MAILFROM']);
 
 // Cookie's name
 define('DC_SESSION_NAME', isset($_ENV['DC_SESSION_NAME']) ? $_ENV['DC_SESSION_NAME'] : 'dcxd');
