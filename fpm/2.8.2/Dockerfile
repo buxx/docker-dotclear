@@ -33,5 +33,6 @@ RUN mkdir -p /usr/src/dotclear \
     && rm -f /var/www/html/*
 
 ADD docker-entrypoint.sh /entrypoint.sh
+ADD config.php /usr/src/dotclear/inc/config.php
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["php-fpm"]
